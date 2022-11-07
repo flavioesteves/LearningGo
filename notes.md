@@ -46,3 +46,10 @@
   - int: 1, -1 
   - float64: 1.0, -1.0
 16. Functions and Return Types
+17. Slices nad For Loops
+  * Array: Fixed length list of things
+  * Slice: An Array that can grow or shrink
+  * TO add a element to a slice -> "var" = append("var", newVar) 
+  * Loop: 
+    - for index, "varOfSlice" := range "slice" { fmt.Printls(index, "varOfSlice") }
+18. OO Aproach vs GO Approach

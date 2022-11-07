@@ -2,7 +2,17 @@ package main
 
 import "fmt"
 
-func preMain16() {
+func main() {
+	cards := []string{newCard(), "Ace of Diamonds"}
+	cards = append(cards, "Six of Spades") // return a new slice
+
+	// Loop
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
+}
+
+func preMainUntil15() {
 	// var card string= "Ace of Spades" is ===
 	card := "Ace of Spades"
 	card = "Five of Diamonds"
@@ -10,7 +20,7 @@ func preMain16() {
 	fmt.Println(card)
 }
 
-func main() {
+func main_l16() {
 	card := newCard()
 
 	fmt.Println(card)
