@@ -3,13 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	cards := []string{newCard(), "Ace of Diamonds"}
-	cards = append(cards, "Six of Spades") // return a new slice
+	cards := deck{newCard(), "Ace of Diamonds"} // deck.go
+	cards = append(cards, "Six of Spades")      // return a new slice
 
-	// Loop
-	for i, card := range cards {
-		fmt.Println(i, card)
-	}
+	cards.print()
 }
 
 func preMainUntil15() {

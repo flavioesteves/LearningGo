@@ -53,3 +53,13 @@
   * Loop: 
     - for index, "varOfSlice" := range "slice" { fmt.Printls(index, "varOfSlice") }
 18. OO Aproach vs GO Approach
+19. Custom types Declarations
+  * Custom types "extend" a base type and add some extra functionality to it.
+  * A function with a receiver is like a "method" - a function that belongs to an "instance"
+  *  func (d deck) print(){}
+20. Receiver Functions
+  * func (d deck) print (){} -> Any variable of the type "deck" now gets access to the "print" method
+  * d --> The actual copy of the deck we're working with is available in the function as a variable called 'd'
+  * deck --> Every variable of type 'deck' can call this function on itself
+  * receiver variable is like "this" in JS & "self" in Rust
+
