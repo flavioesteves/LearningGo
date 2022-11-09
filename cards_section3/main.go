@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	cards := deck{newCard(), "Ace of Diamonds"} // deck.go
-	cards = append(cards, "Six of Spades")      // return a new slice
+	cards := newDeck()
 
-	cards.print()
+	hand, remainingDeck := deal(cards, 5)
+
+	hand.print()
+	remainingDeck.print()
 }
 
 func preMainUntil15() {

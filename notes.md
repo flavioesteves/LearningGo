@@ -62,4 +62,14 @@
   * d --> The actual copy of the deck we're working with is available in the function as a variable called 'd'
   * deck --> Every variable of type 'deck' can call this function on itself
   * receiver variable is like "this" in JS & "self" in Rust
-
+  * by th econvention is the first letter of the type. ex:.. (d deck)
+21. Creating a new deck
+  * "_" replaces a a variable that is not used, and tell the compiler to ignore it. Example iterators on the for loop
+22. Slice Range Syntax
+  * Slices are zero-indexed like arrays in other languages
+  *  A range of selection on the slice: Slice[starIndexIncluding : upToNotIncluding]
+23. Multiple Returns Values
+  * return "value1", "value2"
+  * Syntax to capture multiple returns: result1, result2 := <value1>, <value2>
+24. Byte Slices
+  * 
