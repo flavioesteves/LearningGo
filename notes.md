@@ -72,4 +72,10 @@
   * return "value1", "value2"
   * Syntax to capture multiple returns: result1, result2 := <value1>, <value2>
 24. Byte Slices
-  * 
+  *  WriteFile in 1.16 change form std package from "ioutils" to "os" --> [https://pkg.go.dev/os#WriteFile](https://pkg.go.dev/os#WriteFile)
+25. Deck to String
+  * Type Conversion. Example: Type we want -> Value we have - []byte("Hi there!")
+  * deck --> []string --> string --> []byte
+26. Joining a Slice of Strings
+  * [https://pkg.go.dev/strings](https://pkg.go.dev/strings)
+27. Saving Data to the Hard Drive

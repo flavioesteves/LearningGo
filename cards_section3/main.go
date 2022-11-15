@@ -1,14 +1,26 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	cards := newDeck()
 
-	hand, remainingDeck := deal(cards, 5)
+	fmt.Println(cards.toString())
+}
 
+func main_l24() {
+	cards := newDeck()
+	hand, remainingDeck := deal(cards, 5)
 	hand.print()
 	remainingDeck.print()
+}
+
+func main_l25() {
+	greeting := "Hi There!"
+
+	fmt.Println([]byte(greeting))
 }
 
 func preMainUntil15() {
