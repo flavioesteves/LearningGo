@@ -79,3 +79,5 @@
 26. Joining a Slice of Strings
   * [https://pkg.go.dev/strings](https://pkg.go.dev/strings)
 27. Saving Data to the Hard Drive
+  * OS package instead of ioutils
+28. Reading From the Hard Drive
