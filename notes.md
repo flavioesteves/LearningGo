@@ -81,3 +81,9 @@
 27. Saving Data to the Hard Drive
   * OS package instead of ioutils
 28. Reading From the Hard Drive
+  * os.ReadFile
+  * [ byteSlice ] [ err ] := os.ReadFile(filename)
+  * err -> Value of the type 'error' if nothing went wrong, it will have a value of 'nil'
+  * Quit application os.Exit()
+29. Error Handling
+
