@@ -86,4 +86,4 @@
   * err -> Value of the type 'error' if nothing went wrong, it will have a value of 'nil'
   * Quit application os.Exit()
 29. Error Handling
-
+30. Shuffling a Deck

@@ -5,9 +5,11 @@ import (
 )
 
 func main() {
-	cards := newDeck()
-	cards.saveToFile("my_cards")
-	fmt.Println(cards.toString())
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
+	cards := newDeckFromFile("my_cards")
+	cards.print()
+	// fmt.Println(cards.toString())
 }
 
 func main_l24() {
