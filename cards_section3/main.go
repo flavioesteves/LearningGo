@@ -5,6 +5,12 @@ import (
 )
 
 func main() {
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
+}
+
+func main_l30() {
 	// cards := newDeck()
 	// cards.saveToFile("my_cards")
 	cards := newDeckFromFile("my_cards")

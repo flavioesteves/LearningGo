@@ -87,3 +87,8 @@
   * Quit application os.Exit()
 29. Error Handling
 30. Shuffling a Deck
+  * Package math/rand (https://pkg.go.dev/math/rand#Rand.Intn)
+  * Swap positions multiple elements in the Slice. Example:. d[i], d[newPosition] = d[newPosition], d[i] // swap elements
+31. Random Number Generation
+
+
