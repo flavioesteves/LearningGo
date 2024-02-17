@@ -153,3 +153,11 @@
         - You need to know all the different fields at compile time
         - Use to represent a "thing" with a lot of different properties
         - Value Type!
+
+# Section 6: Interfaces
+58. Purpose of Interfaces
+    * We know that
+        - Every value has a type
+        - Every function has to specify the type of its arguments
+    * So doed that mean
+        - Every function we every write has to be rewritten to accomdodate different types even if the logic in it is identical?
