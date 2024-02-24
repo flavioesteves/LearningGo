@@ -161,3 +161,6 @@
         - Every function has to specify the type of its arguments
     * So doed that mean
         - Every function we every write has to be rewritten to accomdodate different types even if the logic in it is identical?
+
+59. Problems Without Interfaces
+60. Interfaces in Practice
