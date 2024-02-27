@@ -164,3 +164,17 @@
 
 59. Problems Without Interfaces
 60. Interfaces in Practice
+    * 2 types of bots structs and respective functions
+    * type bot interface: If you are a type in this program with a function called "getGreeting" and you return a string then you are now an honorary member og type "bot"
+61. Rules of Interfaces
+    * Concrete Type: map, struc, int, string, englishBot
+    * Inteface Type: bot
+62. Extra Interface Notes
+    * Interface are not generic types
+    * Interfaces are 'implicit'
+    * Interfaces are a contract to help us manage types
+    * Interfaces are tough. Step#1 is understanding how to read them
+63. The HTTP Package
+    * Package net/http
+64. Reading the Docs
+65. More Interface Syntax
