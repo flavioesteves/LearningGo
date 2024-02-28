@@ -178,3 +178,10 @@
     * Package net/http
 64. Reading the Docs
 65. More Interface Syntax
+    * Interface with interfaces
+66. Interface Review
+67. The Reader Interface
+    * Every value has a type
+    * Every Function has to specify the type of its arguments
+68. More on the Reader Interface
+
