@@ -184,4 +184,14 @@
     * Every value has a type
     * Every Function has to specify the type of its arguments
 68. More on the Reader Interface
-
+69. Working with the Read Function
+70. The Writer Interface
+    * Source of data -> Reader -> []byte (Output data that anyone can work with)
+    * []byte -> Writer -> Some form of output (Outgoing HTTP Request, Text file of hard drive, Image file on hard drive, Terminal)
+    We need to fing something in the standard library that *implements* the Writer interface, and use that to log out all the data
+    that we're receiving from the Reader
+71. The io.Copy Function
+    * io.Copy -> Something that implements the Writer interface, Something that implements the Reader Interface
+72. The Implementation of io.Copy
+73. A Custom Writer
+74. Assignment: Interfaces
