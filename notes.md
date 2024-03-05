@@ -215,3 +215,5 @@
     * "go" keyword: Create a new thread go routine
     * Channel is the link beetween Go routines
     * Main Routine <--> Channel <--> Child go routine
+    * Channel have types
+84. Channel Implementation
