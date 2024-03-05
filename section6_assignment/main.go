@@ -20,7 +20,6 @@ func main() {
 	s := square{sideLength: 10}
 	printArea(t)
 	printArea(s)
-
 }
 
 func (t triangle) getArea() float64 {

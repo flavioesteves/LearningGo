@@ -195,3 +195,23 @@
 72. The Implementation of io.Copy
 73. A Custom Writer
 74. Assignment: Interfaces
+75. Interfaces Solution
+76. Assignment: Hard Mode Interfaces
+77. Hard Mode Interfaces Solution
+
+# Section 7: Channels and Go Routines
+78. Website Status Checker
+    * Status Checker -> http request -> multiple websites
+79. Printing Site Status
+80. Serial Link Checking
+81. Go Routines - !Important
+82. Theory of Go Routines - !Important
+    * One CPU Core -> Go Scheduler -> Multiple Go Routines
+    * Scheduler runs one routine until finishes or makes a blocking call (like an HTTP request)
+    * By default Go uses only 1 core but easily configured to use multiple cores, and then each core use a Go Routine per core
+    * Concurrency -  We can have multiple threads executing code. If one thread blocks, another one is picked up and worked on
+    * Parallelism - Multiple threads executed at the exact time. Requires multiples CPU's
+83. Channels - !Important
+    * "go" keyword: Create a new thread go routine
+    * Channel is the link beetween Go routines
+    * Main Routine <--> Channel <--> Child go routine
