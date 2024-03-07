@@ -220,5 +220,6 @@
     * channel <- 5 (Send the value '5' into this channel)
     * myNumber <- channel (Wait for a value to be sent into the channel. When we got one assign the value to 'myNumber')
     * fmt.Println(<- channel) (Wait for value to be sent into the channel. Whrn we get one, log it out immediately)
-85. Blocking Channels
-
+85. Blocking Channels - !Important
+    * Receiving messages from a channel is a blocking thing
+86. Receiving Messages
