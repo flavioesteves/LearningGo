@@ -223,3 +223,8 @@
 85. Blocking Channels - !Important
     * Receiving messages from a channel is a blocking thing
 86. Receiving Messages
+87. Repeating Routines
+88. Alternative Loop Syntax
+89. Sleeping a Routine
+90. Function Literals
+91. Channels Gotcha!
